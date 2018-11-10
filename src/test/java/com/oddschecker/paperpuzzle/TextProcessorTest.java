@@ -43,5 +43,26 @@ public class TextProcessorTest {
 
     }
 
+    @Test
+    public void checkIf_2_words_not_entirely_substrings_can_be_merged_correctly(){
+
+            String s1 = "draconia";
+            String s2 = "conian";
+            String merged = new TextProcessor().mergeWords(s1, s2);
+            assertEquals("draconian", merged);
+
+    }
+
+
+    @Test
+    public void checkIf_2_words_not_entirely_substrings_can_be_merged_correctly_when_switched(){
+
+        String s1 = "draconia";
+        String s2 = "conian";
+        String merged = new TextProcessor().mergeWords(s2, s1);
+        assertEquals("draconian", merged);
+
+    }
+
 
 }

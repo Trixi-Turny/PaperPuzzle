@@ -35,14 +35,12 @@ public class TextProcessor {
                 if (words.get(i).equals(words.get(k))) {
                     continue;
                 }
-                    if (words.get(k).contains(words.get(i))) {
-                        words.removeAll(Collections.singleton(words.get(i)));
-                    }
-                   else if (words.get(i).contains(words.get(k))) {
-                        words.removeAll(Collections.singleton(words.get(k)));
-                    }
-                else{
-                    if (i == words.size() ) {
+                if (words.get(k).contains(words.get(i))) {
+                    words.removeAll(Collections.singleton(words.get(i)));
+                } else if (words.get(i).contains(words.get(k))) {
+                    words.removeAll(Collections.singleton(words.get(k)));
+                } else {
+                    if (i == words.size()) {
                         return words;
                     }
                 }
@@ -53,11 +51,27 @@ public class TextProcessor {
 
     }
 
-
-    //type of text
-    //type of encoding - utf-8
-    //System.out.println(new String(line.getBytes("UTF-8"))) ??;
-    //
+    public String mergeWords(String s1, String s2) {
+        String s = s1;
+        int lengthOfS2 = s2.length();
+        while (lengthOfS2 > 0) {
+            String common = s2.substring(0, lengthOfS2);
+            if (s1.endsWith(common)){
+                s = s1 +  s2.substring(common.length());
+                break;
+            }
+            lengthOfS2--;
+        }
+        return s;
+    }
 
 
 }
+
+//type of text
+//type of encoding - utf-8
+//System.out.println(new String(line.getBytes("UTF-8"))) ??;
+//
+
+
+
