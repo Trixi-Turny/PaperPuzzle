@@ -37,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextProcessor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TextProcessor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/TextProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="55" column="37" lean-forward="true" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+            <state relative-caret-position="265">
+              <caret line="66" column="60" lean-forward="true" selection-start-line="66" selection-start-column="60" selection-end-line="66" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#563#571#0" expanded="true" />
@@ -50,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextProcessorTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TextProcessorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/oddschecker/paperpuzzle/TextProcessorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="61" column="61" lean-forward="false" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
+            <state relative-caret-position="7">
+              <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,8 +66,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="527">
-                <caret line="68" column="59" lean-forward="false" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
+              <first_editor relative-caret-position="186">
+                <caret line="49" column="59" lean-forward="true" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -103,8 +103,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/App.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/test/java/com/oddschecker/paperpuzzle/TextProcessorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/TextProcessor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/oddschecker/paperpuzzle/TextProcessorTest.java" />
       </list>
     </option>
   </component>
@@ -301,23 +301,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541872317091</updated>
-      <workItem from="1541872321754" duration="14408000" />
+      <workItem from="1541872321754" duration="15671000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_paperpuzzle - 2018.11.10 at 23h 24m 11s.xml">
-      <configuration name="All in paperpuzzle" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="All_in_paperpuzzle - 2018.11.10 at 23h 26m 17s.xml">
-      <configuration name="All in paperpuzzle" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="All_in_paperpuzzle - 2018.11.10 at 23h 26m 23s.xml">
-      <configuration name="All in paperpuzzle" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="All_in_paperpuzzle - 2018.11.10 at 23h 27m 30s.xml">
-      <configuration name="All in paperpuzzle" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="All_in_paperpuzzle - 2018.11.10 at 23h 27m 49s.xml">
       <configuration name="All in paperpuzzle" configurationId="AndroidJUnit" />
     </history-entry>
@@ -336,9 +324,21 @@
     <history-entry file="All_in_paperpuzzle - 2018.11.10 at 23h 35m 05s.xml">
       <configuration name="All in paperpuzzle" configurationId="AndroidJUnit" />
     </history-entry>
+    <history-entry file="All_in_paperpuzzle - 2018.11.10 at 23h 44m 03s.xml">
+      <configuration name="All in paperpuzzle" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="All_in_paperpuzzle - 2018.11.10 at 23h 45m 37s.xml">
+      <configuration name="All in paperpuzzle" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="All_in_paperpuzzle - 2018.11.10 at 23h 53m 09s.xml">
+      <configuration name="All in paperpuzzle" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="All_in_paperpuzzle - 2018.11.10 at 23h 57m 43s.xml">
+      <configuration name="All in paperpuzzle" configurationId="AndroidJUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14408000" />
+    <option name="totallyTimeSpent" value="15671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="983" extended-state="0" />
@@ -413,17 +413,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="527">
-            <caret line="68" column="59" lean-forward="false" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -442,23 +431,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oddschecker/paperpuzzle/TextProcessorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/TextProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="61" column="61" lean-forward="false" selection-start-line="61" selection-start-column="61" selection-end-line="61" selection-end-column="61" />
+        <state relative-caret-position="265">
+          <caret line="66" column="60" lean-forward="true" selection-start-line="66" selection-start-column="60" selection-end-line="66" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#563#571#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/TextProcessor.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="186">
+            <caret line="49" column="59" lean-forward="true" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oddschecker/paperpuzzle/TextProcessorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="55" column="37" lean-forward="true" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+        <state relative-caret-position="7">
+          <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#563#571#0" expanded="true" />
           </folding>
         </state>
       </provider>

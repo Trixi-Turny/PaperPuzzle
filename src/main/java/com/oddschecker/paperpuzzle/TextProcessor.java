@@ -54,14 +54,23 @@ public class TextProcessor {
     public String mergeWords(String s1, String s2) {
         String s = s1;
         int lengthOfS2 = s2.length();
-        while (lengthOfS2 > 0) {
-            String common = s2.substring(0, lengthOfS2);
-            if (s1.endsWith(common)){
-                s = s1 +  s2.substring(common.length());
-                break;
+        int lengthOfS1 = s1.length();
+            while (lengthOfS2 > 0) {
+                String common = s2.substring(0, lengthOfS2);
+                if (s1.endsWith(common)) {
+                    s = s1 + s2.substring(common.length());
+                    break;
+                }
+                lengthOfS2--;
             }
-            lengthOfS2--;
-        }
+            while (lengthOfS1 > 0) {
+                String common = s1.substring(0, lengthOfS1);
+                if (s2.endsWith(common)) {
+                    s = s2 + s1.substring(common.length());
+                    break;
+                }
+                lengthOfS1--;
+            }
         return s;
     }
 

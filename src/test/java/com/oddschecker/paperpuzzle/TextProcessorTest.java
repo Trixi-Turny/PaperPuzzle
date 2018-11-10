@@ -59,10 +59,21 @@ public class TextProcessorTest {
 
         String s1 = "draconia";
         String s2 = "conian";
+        //switch the order of params
         String merged = new TextProcessor().mergeWords(s2, s1);
         assertEquals("draconian", merged);
 
     }
 
+    @Test
+    public void checkIf_2_words_not_entirely_substrings_can_be_merged(){
+
+        String s1 = "asta";
+        String s2 = "stalavista";
+        //switch the order of params
+        String merged = new TextProcessor().mergeWords(s2, s1);
+        assertEquals("astalavista", merged);
+
+    }
 
 }
