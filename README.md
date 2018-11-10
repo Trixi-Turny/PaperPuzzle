@@ -61,3 +61,10 @@ try (BufferedReader in = new BufferedReader(new FileReader(args[0]))) {
  		e.printStackTrace(); 
  	} 
  }
+
+
+***
+The following assumptions have been made:
+ - the words in each line are word fragments from the same line of the document. 
+   as if the words only got mixed up per each line 5 times 
+ 
