@@ -23,7 +23,7 @@ public class TextProcessorTest {
     public void splits_line_to_correct_arrayList_of_words(){
         String sampletext = "O draconia;conian devil! Oh la;h lame sa;saint!";
         ArrayList<String> splitSample= new TextProcessor().splitToWords(sampletext);
-        assertEquals(splitSample, new ArrayList<String> (Arrays.asList("O", "drakonia", "conian", "devil!", "Oh", "la", "h", "lame", "sa", "saint")));
+        assertEquals(splitSample, new ArrayList<String> (Arrays.asList("O", "draconia", "conian", "devil!", "Oh", "la", "h", "lame", "sa", "saint!")));
 
 
     }
