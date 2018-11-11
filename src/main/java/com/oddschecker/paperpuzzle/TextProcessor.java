@@ -39,6 +39,18 @@ public class TextProcessor {
     }
 
 
+    public String buildSentence(ArrayList<String> fragments){
+        if(fragments!=null) {
+            StringBuilder builder = new StringBuilder();
+            for (String sentence : fragments) {
+                builder.append(sentence);
+            }
+            return builder.toString();
+        }
+        return null;
+
+    }
+
     public ArrayList<String> reAssemble(ArrayList<String> words) {
         for (int i = 0; i < words.size(); i++) {
             for (int k = 0; k < words.size(); k++) {
