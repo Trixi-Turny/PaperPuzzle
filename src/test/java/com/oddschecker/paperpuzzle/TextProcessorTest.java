@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Set;
 
 import static org.junit.Assert.assertEquals;
 
@@ -75,5 +76,10 @@ public class TextProcessorTest {
         assertEquals("astalavista", merged);
 
     }
+
+//    @Test
+//    public checkIfSentencesAreSeparatedCorrectly(){
+//
+//    }
 
 }

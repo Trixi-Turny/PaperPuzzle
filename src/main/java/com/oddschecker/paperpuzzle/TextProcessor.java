@@ -32,45 +32,56 @@ public class TextProcessor {
     public ArrayList<String> eliminateCompleteSubstrings(ArrayList<String> words) {
         for (int i = 0; i < words.size(); i++) {
             for (int k = 0; k < words.size(); k++) {
+                String word1 = words.get(i);
+                String word2 = words.get(k);
+
+                if (i == words.size()) {
+                    return words;
+                }
                 if (words.get(i).equals(words.get(k))) {
                     continue;
                 }
-                if (words.get(k).contains(words.get(i))) {
-                    words.removeAll(Collections.singleton(words.get(i)));
-                } else if (words.get(i).contains(words.get(k))) {
-                    words.removeAll(Collections.singleton(words.get(k)));
+
+                String s = this.mergeWords(words.get(k), words.get(i));
+                if (s != null && !s.equals("")) {
+
+                    words.add(s);
+                    words.remove(word1);
+                    words.remove(word2);
+
                 } else {
-                    if (i == words.size()) {
-                        return words;
+
+                    if (words.get(k).contains(words.get(i))) {
+                        words.remove(words.get(i));
+                    } else if (words.get(i).contains(words.get(k))) {
+                        words.remove(words.get(k));
                     }
                 }
             }
         }
-        System.out.println(words.toString());
         return words;
-
     }
 
     public String mergeWords(String s1, String s2) {
-        String s = s1;
+        String s = "";
         int lengthOfS2 = s2.length();
         int lengthOfS1 = s1.length();
-            while (lengthOfS2 > 0) {
-                String common = s2.substring(0, lengthOfS2);
-                if (s1.endsWith(common)) {
-                    s = s1 + s2.substring(common.length());
-                    break;
-                }
-                lengthOfS2--;
+        while (lengthOfS2 > 0) {
+            String common = s2.substring(0, lengthOfS2);
+            if (s1.endsWith(common)) {
+                s = s1 + s2.substring(common.length());
+                break;
             }
-            while (lengthOfS1 > 0) {
-                String common = s1.substring(0, lengthOfS1);
-                if (s2.endsWith(common)) {
-                    s = s2 + s1.substring(common.length());
-                    break;
-                }
-                lengthOfS1--;
+            lengthOfS2--;
+        }
+        while (lengthOfS1 > 0) {
+            String common = s1.substring(0, lengthOfS1);
+            if (s2.endsWith(common)) {
+                s = s2 + s1.substring(common.length());
+                break;
             }
+            lengthOfS1--;
+        }
         return s;
     }
 
