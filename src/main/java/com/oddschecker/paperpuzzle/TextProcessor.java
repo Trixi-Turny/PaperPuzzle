@@ -28,12 +28,27 @@ public class TextProcessor {
 
     }
 
+    public ArrayList<String> splitToFragments(String sampleText){
+        if(sampleText!= null){
+            ArrayList<String> fragments  = new ArrayList<String>();
+            fragments.addAll(Arrays.asList(sampleText.split(";|(?<=!)|(?<=\\?)|(?<=\\.)")));
+            return fragments;
+        }
+        return null;
+
+    }
+
 
     public ArrayList<String> reAssemble(ArrayList<String> words) {
         for (int i = 0; i < words.size(); i++) {
             for (int k = 0; k < words.size(); k++) {
+                if(i==words.size()){
+                    return words;
+                }
                 String word1 = words.get(i);
                 String word2 = words.get(k);
+
+
 
                 if (word1.equals(word2)) {
                     continue;
@@ -41,19 +56,18 @@ public class TextProcessor {
 
                 String mergedWord = this.mergeWords(word1, word2);
                 if (mergedWord != null && !mergedWord.equals("")) {
-
                     words.add(mergedWord);
                     words.remove(word1);
                     words.remove(word2);
-
-                } else {
-
-                    if (word1.contains(word2)) {
-                        words.remove(word1);
-                    } else if (word1.contains(word2)) {
-                        words.remove(word2);
-                    }
                 }
+
+//                } else {
+//                    if (word1.contains(word2)) {
+//                        words.remove(word1);
+//                    } else if (word1.contains(word2)) {
+//                        words.remove(word2);
+//                    }
+//                }
             }
         }
         return words;
