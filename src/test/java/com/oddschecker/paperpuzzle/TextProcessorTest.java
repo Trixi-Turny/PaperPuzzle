@@ -5,7 +5,6 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Set;
 
 import static org.junit.Assert.assertEquals;
 
@@ -39,7 +38,7 @@ public class TextProcessorTest {
     public void test_if_we_can_correctly_eliminate_words_contained_entirely(){
         String sampletext = "O draconia;conian devil! Oh la;h h h lame sa;saint! sai sai sa";
         ArrayList<String> splitSample= new TextProcessor().splitToWords(sampletext);
-        ArrayList<String> eliminatedWords = new TextProcessor().eliminateCompleteSubstrings(splitSample);
+        ArrayList<String> eliminatedWords = new TextProcessor().reAssemble(splitSample);
         assertEquals(Arrays.asList("draconia", "conian", "devil!", "Oh", "lame", "saint!"), eliminatedWords);
 
     }

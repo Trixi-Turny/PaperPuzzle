@@ -1,9 +1,6 @@
 package com.oddschecker.paperpuzzle;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.util.ArrayList;
-import java.util.Set;
 
 /**
  *Main program
@@ -23,7 +20,7 @@ public class App {
 
         String sampletext = "O draconia;conian devil! Oh la;h h h lame sa;saint! sai sai sa";
         ArrayList<String> splitSample= new TextProcessor().splitToWords(sampletext);
-        ArrayList<String> eliminatedWords = new TextProcessor().eliminateCompleteSubstrings(splitSample);
+        ArrayList<String> eliminatedWords = new TextProcessor().reAssemble(splitSample);
 
         System.out.println(eliminatedWords.toString());
 //

@@ -29,32 +29,29 @@ public class TextProcessor {
     }
 
 
-    public ArrayList<String> eliminateCompleteSubstrings(ArrayList<String> words) {
+    public ArrayList<String> reAssemble(ArrayList<String> words) {
         for (int i = 0; i < words.size(); i++) {
             for (int k = 0; k < words.size(); k++) {
                 String word1 = words.get(i);
                 String word2 = words.get(k);
 
-                if (i == words.size()) {
-                    return words;
-                }
-                if (words.get(i).equals(words.get(k))) {
+                if (word1.equals(word2)) {
                     continue;
                 }
 
-                String s = this.mergeWords(words.get(k), words.get(i));
-                if (s != null && !s.equals("")) {
+                String mergedWord = this.mergeWords(word1, word2);
+                if (mergedWord != null && !mergedWord.equals("")) {
 
-                    words.add(s);
+                    words.add(mergedWord);
                     words.remove(word1);
                     words.remove(word2);
 
                 } else {
 
-                    if (words.get(k).contains(words.get(i))) {
-                        words.remove(words.get(i));
-                    } else if (words.get(i).contains(words.get(k))) {
-                        words.remove(words.get(k));
+                    if (word1.contains(word2)) {
+                        words.remove(word1);
+                    } else if (word1.contains(word2)) {
+                        words.remove(word2);
                     }
                 }
             }
