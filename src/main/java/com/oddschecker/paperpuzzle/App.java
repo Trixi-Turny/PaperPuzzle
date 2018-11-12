@@ -24,8 +24,6 @@ public class App {
 
         ArrayList<String> eliminatedWords = new TextProcessor().reAssemble(splitSample);
 
-        System.out.println(eliminatedWords.toString());
-//
     }
 
 
