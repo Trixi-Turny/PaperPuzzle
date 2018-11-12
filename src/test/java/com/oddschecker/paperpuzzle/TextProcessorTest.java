@@ -6,25 +6,11 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertEquals;
 
 public class TextProcessorTest {
 
-
-//    @Test
-//    public void reassembling_sample_text_results_in_correct_output(){
-//
-//
-//    }
-
-    @Test
-    public void splits_line_to_correct_arrayList_of_words(){
-        String sampletext = "O draconia;conian devil! Oh la;h lame sa;saint!";
-        ArrayList<String> splitSample= new TextProcessor().splitToWords(sampletext);
-        assertEquals(new ArrayList<String>(Arrays.asList("O", "draconia", "conian", "devil!", "Oh", "la", "h", "lame", "sa", "saint!")), splitSample);
-
-
-    }
 
     @Test
     public void checkIfStringContainsAnotherStringFragment(){
@@ -104,8 +90,16 @@ public class TextProcessorTest {
 
     @Test
     public void checkIfHighestCommonCharPairsComeBackCorrectly(){
-        
+
+        String sampletext = "O draconia;conian devil! Oh la;h lame sa;saint!";
+        TextProcessor textProcessor = new TextProcessor();
+        Pair<Integer, Integer> pair = textProcessor.getHighestCommonCharPair(textProcessor.splitToFragments(sampletext));
+        assertTrue(pair.getFirst()== 0);
+        assertTrue(pair.getSecond()==1);
 
     }
+    
+
+
 
 }

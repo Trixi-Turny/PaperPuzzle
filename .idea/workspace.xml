@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f928e596-bf71-4d75-b69b-be6c66af2f20" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/App.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/TextProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/TextProcessor.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/oddschecker/paperpuzzle/TextProcessorTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/oddschecker/paperpuzzle/TextProcessorTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oddschecker/paperpuzzle/TextProcessor.class" afterPath="$PROJECT_DIR$/target/classes/com/oddschecker/paperpuzzle/TextProcessor.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oddschecker/paperpuzzle/TextProcessorTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/oddschecker/paperpuzzle/TextProcessorTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/Pair.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#272#273#0" expanded="true" />
                 <element signature="e#300#301#0" expanded="true" />
@@ -72,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/oddschecker/paperpuzzle/TextProcessorTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="106" column="8" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+              <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -416,17 +412,11 @@
       <option name="presentableId" value="Default" />
       <updated>1541872317091</updated>
       <workItem from="1541872321754" duration="65142000" />
-      <workItem from="1542015882837" duration="14509000" />
+      <workItem from="1542015882837" duration="17245000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_paperpuzzle - 2018.11.12 at 13h 11m 35s.xml">
-      <configuration name="All in paperpuzzle" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="All_in_paperpuzzle - 2018.11.12 at 13h 14m 40s.xml">
-      <configuration name="All in paperpuzzle" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="All_in_paperpuzzle - 2018.11.12 at 13h 27m 27s.xml">
       <configuration name="All in paperpuzzle" configurationId="AndroidJUnit" />
     </history-entry>
@@ -451,9 +441,15 @@
     <history-entry file="All_in_paperpuzzle - 2018.11.12 at 14h 33m 21s.xml">
       <configuration name="All in paperpuzzle" configurationId="AndroidJUnit" />
     </history-entry>
+    <history-entry file="All_in_paperpuzzle - 2018.11.12 at 21h 05m 06s.xml">
+      <configuration name="All in paperpuzzle" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="All_in_paperpuzzle - 2018.11.12 at 21h 07m 35s.xml">
+      <configuration name="All in paperpuzzle" configurationId="AndroidJUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79651000" />
+    <option name="totallyTimeSpent" value="82387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="174" y="23" width="1400" height="1023" extended-state="0" />
@@ -611,7 +607,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#272#273#0" expanded="true" />
             <element signature="e#300#301#0" expanded="true" />
@@ -636,7 +632,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/oddschecker/paperpuzzle/TextProcessorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="106" column="8" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+          <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
