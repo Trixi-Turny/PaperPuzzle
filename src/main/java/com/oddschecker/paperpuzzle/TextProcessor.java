@@ -46,7 +46,7 @@ public class TextProcessor {
 
 
     /**
-     * Method recursively check next fragment pairs with the most overlapping characters then merging them and replacing/removing the original pair.
+     * Method recursively check next fragment pairs with the most overlapping characters then merging them and removing the original pair.
      *
      * @param listOfFragments - ArrayList<String>  - the list containing sentence fragments to be assembled
      * @return listOfFragments - a list with merged sentences;
@@ -160,6 +160,12 @@ public class TextProcessor {
         String common2 = "";
 
 
+        if (s1.contains(s2)) {
+            return s1;
+        }
+        if (s2.contains(s1)) {
+            return s2;
+        }
         //checking overlap from both ends and merging on the longer overlap
         while (lengthOfS2 > 0) {
             common1 = s2.substring(0, lengthOfS2);
@@ -177,12 +183,7 @@ public class TextProcessor {
             }
             lengthOfS1--;
         }
-        if (s1.contains(s2)) {
-            return s1;
-        }
-        if (s2.contains(s1)) {
-            return s2;
-        }
+
         return common1.length() >= common2.length() ? firstString : secondString;
 
     }
