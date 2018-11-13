@@ -68,7 +68,7 @@ public class TextProcessor {
             listOfFragments.remove(listOfFragments.indexOf(fragment2));
             listOfFragments.add(mergedWord);
             reAssemble(listOfFragments);
-            
+
         }
 
         return listOfFragments;
@@ -97,7 +97,6 @@ public class TextProcessor {
 
                     continue;
                 }
-                System.out.println("Checking " + listOfFragments.get(i) + " against " + listOfFragments.get(k));
                 common = this.getNoOfCommonChars(listOfFragments.get(i), listOfFragments.get(k));
                 if (common > highestCommon) {
                     highestCommon = common;

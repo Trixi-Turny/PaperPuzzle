@@ -35,8 +35,8 @@
       <file leaf-file-name="TextProcessor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/TextProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1456">
-              <caret line="70" column="12" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+            <state relative-caret-position="293">
+              <caret line="99" column="16" lean-forward="false" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -385,8 +385,8 @@
     <history-entry file="All_in_paperpuzzle - 2018.11.13 at 12h 16m 26s.xml">
       <configuration name="All in paperpuzzle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TextProcessorTest - 2018.11.13 at 11h 39m 36s.xml">
-      <configuration name="TextProcessorTest" configurationId="JUnit" />
+    <history-entry file="All_in_paperpuzzle - 2018.11.13 at 12h 24m 13s.xml">
+      <configuration name="All in paperpuzzle" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TextProcessorTest - 2018.11.13 at 11h 41m 00s.xml">
       <configuration name="TextProcessorTest" configurationId="JUnit" />
@@ -636,8 +636,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/TextProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1456">
-          <caret line="70" column="12" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+        <state relative-caret-position="293">
+          <caret line="99" column="16" lean-forward="false" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
