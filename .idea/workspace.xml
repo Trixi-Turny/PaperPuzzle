@@ -6,33 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00a5aaa9-c558-44ca-8403-03629f82c6b4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/paperpuzzle.iml" afterPath="$PROJECT_DIR$/paperpuzzle.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/TextProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/TextProcessor.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/oddschecker/paperpuzzle/AppTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/oddschecker/paperpuzzle/AppTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/oddschecker/paperpuzzle/TextProcessorTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/oddschecker/paperpuzzle/TextProcessorTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oddschecker/paperpuzzle/App.class" afterPath="$PROJECT_DIR$/target/classes/com/oddschecker/paperpuzzle/App.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oddschecker/paperpuzzle/Pair.class" afterPath="$PROJECT_DIR$/target/classes/com/oddschecker/paperpuzzle/Pair.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/oddschecker/paperpuzzle/TextProcessor.class" afterPath="$PROJECT_DIR$/target/classes/com/oddschecker/paperpuzzle/TextProcessor.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/paperpuzzle-1.0.jar" afterPath="$PROJECT_DIR$/target/paperpuzzle-1.0.jar" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.oddschecker.paperpuzzle.AppTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.oddschecker.paperpuzzle.AppTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.oddschecker.paperpuzzle.TextProcessorTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.oddschecker.paperpuzzle.TextProcessorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.oddschecker.paperpuzzle.AppTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.oddschecker.paperpuzzle.AppTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.oddschecker.paperpuzzle.TextProcessorTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/com.oddschecker.paperpuzzle.TextProcessorTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oddschecker/paperpuzzle/AppTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/oddschecker/paperpuzzle/AppTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/oddschecker/paperpuzzle/TextProcessorTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/oddschecker/paperpuzzle/TextProcessorTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextProcessor.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TextProcessor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/TextProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="215" column="76" lean-forward="false" selection-start-line="215" selection-start-column="76" selection-end-line="215" selection-end-column="76" />
+            <state relative-caret-position="-1456">
+              <caret line="70" column="12" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextProcessorTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TextProcessorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/oddschecker/paperpuzzle/TextProcessorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="90" column="257" lean-forward="false" selection-start-line="90" selection-start-column="257" selection-end-line="90" selection-end-column="257" />
+            <state relative-caret-position="260">
+              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,8 +139,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/com/oddschecker/paperpuzzle/AppTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/TextProcessor.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/oddschecker/paperpuzzle/TextProcessorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/TextProcessor.java" />
       </list>
     </option>
   </component>
@@ -399,17 +373,17 @@
     <history-entry file="All_in_paperpuzzle - 2018.11.13 at 12h 06m 57s.xml">
       <configuration name="All in paperpuzzle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TextProcessorTest - 2018.11.13 at 11h 22m 26s.xml">
-      <configuration name="TextProcessorTest" configurationId="JUnit" />
+    <history-entry file="All_in_paperpuzzle - 2018.11.13 at 12h 13m 51s.xml">
+      <configuration name="All in paperpuzzle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TextProcessorTest - 2018.11.13 at 11h 23m 47s.xml">
-      <configuration name="TextProcessorTest" configurationId="JUnit" />
+    <history-entry file="All_in_paperpuzzle - 2018.11.13 at 12h 15m 42s.xml">
+      <configuration name="All in paperpuzzle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TextProcessorTest - 2018.11.13 at 11h 35m 06s.xml">
-      <configuration name="TextProcessorTest" configurationId="JUnit" />
+    <history-entry file="All_in_paperpuzzle - 2018.11.13 at 12h 15m 50s.xml">
+      <configuration name="All in paperpuzzle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TextProcessorTest - 2018.11.13 at 11h 38m 29s.xml">
-      <configuration name="TextProcessorTest" configurationId="JUnit" />
+    <history-entry file="All_in_paperpuzzle - 2018.11.13 at 12h 16m 26s.xml">
+      <configuration name="All in paperpuzzle" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TextProcessorTest - 2018.11.13 at 11h 39m 36s.xml">
       <configuration name="TextProcessorTest" configurationId="JUnit" />
@@ -430,7 +404,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2907104" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39016393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -650,20 +624,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/TextProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/oddschecker/paperpuzzle/TextProcessorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="215" column="76" lean-forward="false" selection-start-line="215" selection-start-column="76" selection-end-line="215" selection-end-column="76" />
+        <state relative-caret-position="260">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/oddschecker/paperpuzzle/TextProcessorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oddschecker/paperpuzzle/TextProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="90" column="257" lean-forward="false" selection-start-line="90" selection-start-column="257" selection-end-line="90" selection-end-column="257" />
+        <state relative-caret-position="-1456">
+          <caret line="70" column="12" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
