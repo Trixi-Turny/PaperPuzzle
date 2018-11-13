@@ -69,8 +69,13 @@ public class TextProcessor {
 
         if (mergedWord != null && !mergedWord.equals("")) {
             System.out.println("mergedWord " + mergedWord);
-            listOfFragments.set(pairWithMostCommonChars.getFirst(), mergedWord);
-            listOfFragments.remove(listOfFragments.get(pairWithMostCommonChars.getSecond()));
+            String fragment1  = listOfFragments.get(pairWithMostCommonChars.getFirst());
+            String fragment2 = listOfFragments.get(pairWithMostCommonChars.getSecond());
+            listOfFragments.remove(listOfFragments.indexOf(fragment1));
+            listOfFragments.remove(listOfFragments.indexOf(fragment2));
+            listOfFragments.add(mergedWord);
+//            listOfFragments.set(pairWithMostCommonChars.getFirst(), mergedWord);
+//            listOfFragments.remove(listOfFragments.get(pairWithMostCommonChars.getSecond()));
             System.out.println("updatedList after ");
             counter = 0;
             for (String s : listOfFragments) {
@@ -117,10 +122,10 @@ public class TextProcessor {
                     pairWithMostCommonChars = new Pair(highestCommonIndexFirst, highestCommonIndexSecond);
 
                 }
-                System.out.println("highestCommon was " + highestCommon + "  vs common " + common);
+//                System.out.println("highestCommon was " + highestCommon + "  vs common " + common);
             }
         }
-        System.out.println("highestCommon was " + highestCommon + "  vs common " + common);
+//        System.out.println("highestCommon was " + highestCommon + "  vs common " + common);
         return pairWithMostCommonChars;
 
     }
@@ -133,7 +138,8 @@ public class TextProcessor {
      */
     public int getNoOfCommonChars(String s1, String s2) {
         String s = "";
-        String common = "";
+        String common1 = "";
+        String common2 = "";
 
 
         int lengthOfS2 = s2.length();
@@ -141,17 +147,20 @@ public class TextProcessor {
 
         while (lengthOfS2 > 0) {
             if (s1.endsWith(s2.substring(0, lengthOfS2))) {
-                String common1 = s2.substring(0, lengthOfS2);
+                common1 = s2.substring(0, lengthOfS2);
                 s = s1 + s2.substring(common1.length());
-                return common1.length();
+//                return common1.length();
+                  break;
+
             }
             lengthOfS2--;
         }
         while (lengthOfS1 > 0) {
             if (s2.endsWith(s1.substring(0, lengthOfS1))) {
-                String common2 = s1.substring(0, lengthOfS1);
+                common2 = s1.substring(0, lengthOfS1);
                 s = s2 + s1.substring(common2.length());
-                return common2.length();
+//                return common2.length();
+                  break;
             }
 
             lengthOfS1--;
@@ -162,7 +171,7 @@ public class TextProcessor {
         if(s2.contains(s1)){
             return s1.length();
         }
-        return common.length();
+        return common1.length() >= common2.length()? common1.length(): common2.length();
 
     }
 
@@ -174,34 +183,37 @@ public class TextProcessor {
      * @return - String the merged word
      */
     public String mergeWords(String s1, String s2) {
-        String s = "";
+        String firstString = s1;
+        String secondString = s2;
         int lengthOfS2 = s2.length();
         int lengthOfS1 = s1.length();
+        String common1 ="";
+        String common2 = "";
 
 
         while (lengthOfS2 > 0) {
-            String common = s2.substring(0, lengthOfS2);
-            if (s1.endsWith(common)) {
-                s = s1 + s2.substring(common.length());
+            common1 = s2.substring(0, lengthOfS2);
+            if (s1.endsWith(common1)) {
+                firstString = s1 + s2.substring(common1.length());
                 break;
             }
             lengthOfS2--;
         }
         while (lengthOfS1 > 0) {
-            String common = s1.substring(0, lengthOfS1);
-            if (s2.endsWith(common)) {
-                s = s2 + s1.substring(common.length());
+            common2 = s1.substring(0, lengthOfS1);
+            if (s2.endsWith(common2)) {
+                secondString = s2 + s1.substring(common2.length());
                 break;
             }
             lengthOfS1--;
         }
-                if (s1.contains(s2)) {
+        if (s1.contains(s2)) {
             return s1;
         }
         if (s2.contains(s1)) {
             return s2;
         }
-        return s;
+        return common1.length()>= common2.length()? firstString:secondString;
     }
 
 

@@ -64,7 +64,19 @@ try (BufferedReader in = new BufferedReader(new FileReader(args[0]))) {
 
 
 ***
-The following assumptions have been made:
- - the words in each line are word fragments from the same line of the document. 
-   as if the words only got mixed up per each line 5 times 
+
+
+
+ To run the project via the terminal please ensure you have the following:
+  - Maven installed and `mvn -` command shows the maven home and location of java jdk
+  - Java installed and `java -version` command  shows version of java
+
+  - navigate to root folder of project  - in this case inside directory called `PaperPuzzle`
+  - install dependencies via `mvn install`
+
+  - create jar file via `mvn package` command. The jar file will be created in `target` folder as `##########`
+
+  - navigate to `target/` directory
+  - run jar file via `java -jar ####### ` <filePath>
+
  
