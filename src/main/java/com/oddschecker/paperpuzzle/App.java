@@ -11,8 +11,7 @@ public class App {
 
     public static void main(String[] args) throws FileNotFoundException {
         App app = new App();
-
-
+        
         int expectedNoOfArgs = 1;
         Validator validator = Validator.getInstance();
         try {
@@ -27,6 +26,12 @@ public class App {
     }
 
 
+    /**
+     * Processing file with provided filepath
+     * @param filePath
+     * @throws FileNotFoundException
+     * @throws IOException
+     */
     public void readFile(String filePath) throws FileNotFoundException, IOException {
 
         TextProcessor textProcessor = new TextProcessor();
